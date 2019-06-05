@@ -1,0 +1,163 @@
+@charset "UTF-8";
+/* This CSS document was created by Stefanie Baarman on April 2nd, 2019 */
+/* --------------------------- HTML TAG STYLES ----------------------------- */
+
+body {
+	font-family: Courier;
+	font-size: 16px;
+	line-height: 1.5em;
+	color: #000000;
+	margin: 0px; 
+  	padding: 0px;
+}
+p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 1.5em;
+}
+h1 {
+  padding: 10px 0;
+  font-size: 20px;
+}
+td {
+	padding: 6px;
+	border: solid #6297F9 1px;
+}
+li{
+	letter-spacing: 0.1em;
+	color: #000000;
+	padding: 0 20px;
+	font-size: 16px;
+}
+a:link {
+	font-weight: bold;
+	color: #596F8F;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #596F8F;
+	text-decoration: none;
+}
+a:hover {
+	color: #212938;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #212938 1px;
+}
+td {
+	padding: 6px;
+	border: solid #212938 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #212938;
+	text-align: center;
+	padding: 6px;
+	border: solid #212938 1px;
+}
+
+/* border styles ------------------------------------ */
+iframe {
+	border: solid #212938 2px;
+	padding: 8px;
+	margin: 8px;
+}
+/* -------------------------- PAGE SECTIONS ---------------------------- */
+#splash {
+   	background-size: cover;  
+	height: 680px; 
+	overflow: hidden;
+}
+#overview {
+	padding: 40px 0 60px 0; 	
+   	background-color: #ccd9ff;
+	color: #000;
+	height: 700px;
+}
+#video {
+	padding: 40px 0 60px 0;
+	color: #000;
+	text-align: center;
+	background-color: #d9d9d9;
+}
+#footer{
+    padding: 40px 0 60px 0;
+  	background-color: #596F8F;
+  	color: #fff;
+}
+
+body {
+  background-color: #dedede;
+}
+.gallery{
+  display: flex;
+  width: 900px;
+  margin: auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+figure{
+  width: 200px;
+  margin: 8px 0;
+  border: 2px solid #d3d3d3;
+  padding: 8px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+figure img{
+  width: 100%;
+}
+figure figcaption{
+  text-align: center;
+  padding: 8px 4px;
+  color: #000;
+}
+/* ---------------- CONTAINER STYLES ----------------- */
+/* Containers are used to keep the page content within bounds centered in the browser window. */
+.container {
+  width: 800px; /* static width container always stays at this width no matter what the window size */
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* ---------------- TITLE PAGE STYLES ------------------- */
+
+#title-page{
+  width: 100%;
+  padding-top: 20px; 
+  color: #fff;
+  text-align: center;
+  font-family: courier;
+  background-image: url("images/image11.jpg");
+  background-size: 110%;
+}
+#title-page h1 {
+  font-size: 50px;
+  line-height: 50px;
+  text-shadow: 1px 1px #000;
+  color: #596F8F;
+}
+#title-page h2 {
+  font-size: 30px;
+  color: #596F8F;
+  text-shadow: 1px 1px #000;
+}
+
+/* ------------------- FOOTER CREDITS --------------------- */
+
+#credits {
+  text-align: center;	
+}
+#credits table{      
+  margin: 0 auto;
+}
+#credits p {
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+
+

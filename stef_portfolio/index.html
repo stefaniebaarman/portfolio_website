@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset ="UTF-8">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="style-navbar.css">
+    </head>
+<body>
+        
+<!------------- SPLASH SECTION -------------------->
+<section id="splash">  
+<div id="navbar">
+	<div class="container"> 
+		<ul  id="menu">
+			<li><a href="#overview" class="button">Intro</a></li>
+			<li><a href="#video" class="button">Photography</a></li>
+   			<li><a href="#footer" class="button">Contact</a></li>
+		</ul>
+	</div> <!-- end container -->
+</div> <!-- end navbar -->
+
+<!-- Title page -->
+<div id="title-page"> 
+    <div class="container"> 
+    <h1>Hello, my name is Stefanie!</h1>
+    <img src= "images/me.gif"> 
+</div> <!-- end container -->
+</section>
+
+
+<!------------- OVERVIEW SECTION -------------------->
+<section id="overview">
+    <div class="container">
+            <h1>About Me</h1>
+            <p> Hi, my name is Stefanie Baarman and I am a Senior at Florida State University studying Information, Communication, and Technology with a minor in Computer Science. I use my creativity to find the best ways to solve a problem. 
+            </p>
+            <p> I have a passion for web design, object oriented programming, and photography.  
+            </p>
+            </div> <!-- end container -->
+</section><!--end OVERVIEW section -->
+
+<!------------- VIDEO SECTION -------------------->
+<section id="video">
+<h1>Photography</h1>
+    <div class="gallery">
+      <figure>
+        <img src="images/image1.jpg">
+        <figcaption></figcaption>
+      </figure>
+      <figure>
+        <img src="images/image2.jpg">
+        <figcaption></figcaption>
+      </figure>
+      <figure>
+        <img src="images/image3.jpg">
+        <figcaption></figcaption>
+      </figure>
+      <figure>
+        <img src="images/image4.jpg">
+        <figcaption></figcaption>
+      </figure>
+      <figure>
+        <img src="images/image5.jpg">
+        <figcaption></figcaption>
+      </figure>
+      <figure>
+        <img src="images/image6.jpg">
+        <figcaption></figcaption>
+      </figure>
+      <figure>
+        <img src="images/image9.jpg">
+        <figcaption></figcaption>
+      </figure>
+      <figure>
+        <img src="images/image8.jpg">
+        <figcaption></figcaption>
+      </figure>
+    </div>
+</section>
+
+<!------------- FOOTER SECTION -------------------->
+
+<section id="footer">
+	<div class="container">
+		<div id="credits">  <!-- credits id allows for styling of footer content --> 
+            <h1>About the Author</h1>
+            <p><img src="images/stef.jpg" width="300" height="290" alt="Author in her favorite vacation spot, Lake Tahoe."></p> 
+            <p>Stefanie Baarman is a Junior at Florida State University studying Information and Technology with a minor in Computer Science.</p>
+        <table width="200">
+          <tr>
+            <td bgcolor="#596F8F">&nbsp;</td> <!--blue-->
+            <td bgcolor="#F1E9DC">&nbsp;</td> <!--tan-->
+            <td bgcolor="#C19A75">&nbsp;</td> <!--brown-->
+            <td bgcolor="#212938">&nbsp;</td> <!--dark blue-->
+      </tr>
+    </table>
+    <p>Copyright, 2019, Stefanie Baarman</p>
+            
+	</div> <!-- end credits section -->
+	</div> <!-- end container section -->
+</section> <!-- end footer -->
+
+<!-- JAVASCRIPT CODE -->
+<!--jquery required for scrolling effect -->
+<script src="js/jquery.js"></script>
+<!-- Scrolling navigation script by Geo Miller glmiller@pic.fsu.edu -->  
+<script type='text/javascript'>
+jQuery(document).ready(function () {
+  jQuery('.button').click(function() {
+    targetName = jQuery(this).attr('href');
+    targetLocation = jQuery(targetName).offset().top;
+    jQuery('html, body').animate({scrollTop:targetLocation}, 'slow');
+    return false;
+  });
+});
+</script>
+
+</body>
+</html>
