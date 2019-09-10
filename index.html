@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset ="UTF-8">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="style-navbar.css">
+       <link rel="shortcut icon" href="images/favicon.png"/>
+
+    </head>
+<body>
+        
+<!------------- SPLASH SECTION -------------------->
+<section id="splash">  
+<div id="navbar">
+	<div class="container"> 
+		<ul  id="menu">
+			<li><a href="#overview" class="button">Intro</a></li>
+			<li><a href="#photo" class="button">Photography</a></li>
+   <li><a href="#education" class="button">Coursework</a></li>
+   <li><a href="#footer" class="button">Contact</a></li>
+		</ul>
+	</div> <!-- end container -->
+</div> <!-- end navbar -->
+
+<!-------------- TITLE PAGE --------------->
+<div id="title-page"> 
+    <div class="container"> 
+    <h1>Hello, my name is Stefanie!</h1>
+    <img src= "animated.gif" width = "550" height = "420" alt = "me">
+</div> <!-- end container -->
+</section>
+
+
+<!------------- OVERVIEW SECTION -------------------->
+<section id="overview">
+    <div class="container">
+            <h1>About Me</h1>
+            <p> Hi, my name is Stefanie Baarman and I am a Senior at Florida State University studying Information, Communication, and Technology with a minor in Computer Science. 
+            </p>
+            <p> I have a passion for web design, programming, and photography. My passion for technology began when I got my first camera in elementary school. I spent most of my days finding different ways to photograph simple objects. Along with the creative aspect of photography, I was always intruiged by how technology worked. Throughout middle and high school, I would watch YouTube tutorials on how to code in C++ and Java, to better understand computers.  
+            </p>
+            <p>
+                In the future, I see myself utilizing my passions in creavitity and programming to implement technologies that will better our everyday lives. 
+            </p>
+            </div> <!-- end container -->
+</section><!--end OVERVIEW section -->
+
+<!------------- PHOTOGRAPHY SECTION -------------------->
+<section id="photo">
+
+<h1>Photography Portfolio</h1>
+    <div class="gallery">
+      <figure>
+        <img src="images/image1.jpg">
+      </figure>
+      <figure>
+        <img src="images/image2.jpg">
+      </figure>
+      <figure>
+        <img src="images/image3.jpg">
+      </figure>
+      <figure>
+        <img src="images/image4.jpg">
+      </figure>
+      <figure>
+        <img src="images/image5.jpg">
+      </figure>
+      <figure>
+        <img src="images/image6.jpg">
+      </figure>
+      <figure>
+        <img src="images/image9.jpg">
+      </figure>
+      <figure>
+        <img src="images/image8.jpg">
+      </figure>
+    </div>
+</section>
+
+
+<!------------ PROGRAMMING ---------------->
+<section id="education">
+           <div class="container">
+         
+            <h1>Relevant Coursework:</h1>
+            <ul>
+             <li>
+              Object Oriented Programming in C++
+              Programming in Java
+             </li>
+             <li>
+              Problem Solving With Operations in Java
+             </li>
+             <li>
+              Web Applications Development
+             </li>
+             <li>
+              Database Concepts using MySQL
+             </li>
+             <li>
+               User Experience Design
+             </li>
+             <li>
+               Social Media Management
+             </li>
+            </ul>
+           
+           
+          </div>
+           </section>
+           
+        
+
+
+<!------------- FOOTER SECTION -------------------->
+
+<section id="footer">
+	<div class="container">
+		<div id="credits">  <!-- credits id allows for styling of footer content --> 
+            <h1>Contact</h1>
+            <p><img src="images/stef.jpg" width="200" height="195" alt="Author in her favorite vacation spot, Lake Tahoe."></p> 
+            <p>Email Address: stefaniebaarman@gmail.com</p>
+            <p>Phone Number: (301)502-0685</p>
+        <table width="200">
+          <tr>
+            <td bgcolor="#DEE7FC">&nbsp;</td> 
+            <td bgcolor="#CBD0DB">&nbsp;</td> 
+            <td bgcolor="#A4BCD2">&nbsp;</td>
+            <td bgcolor="#738BA3">&nbsp;</td>
+      </tr>
+    </table>
+    <p>Copyright, 2019, Stefanie Baarman</p>
+            
+	</div> <!-- end credits section -->
+	</div> <!-- end container section -->
+</section> <!-- end footer -->
+
+<!-- JAVASCRIPT CODE -->
+<!--jquery required for scrolling effect -->
+<script src="js/jquery.js"></script>
+<!-- Scrolling navigation script by Geo Miller glmiller@pic.fsu.edu -->  
+<script type='text/javascript'>
+jQuery(document).ready(function () {
+  jQuery('.button').click(function() {
+    targetName = jQuery(this).attr('href');
+    targetLocation = jQuery(targetName).offset().top;
+    jQuery('html, body').animate({scrollTop:targetLocation}, 'slow');
+    return false;
+  });
+});
+
+
+</script>
+
+</body>
+</html>
