@@ -4,6 +4,8 @@
         <meta charset ="UTF-8">
         <link href="style.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="style-navbar.css">
+       <link rel="shortcut icon" href="images/favicon.png"/>
+
     </head>
 <body>
         
@@ -13,17 +15,18 @@
 	<div class="container"> 
 		<ul  id="menu">
 			<li><a href="#overview" class="button">Intro</a></li>
-			<li><a href="#video" class="button">Photography</a></li>
-   			<li><a href="#footer" class="button">Contact</a></li>
+			<li><a href="#photo" class="button">Projects</a></li>
+   <li><a href="#education" class="button">Work Experience</a></li>
+   <li><a href="#footer" class="button">Contact</a></li>
 		</ul>
 	</div> <!-- end container -->
 </div> <!-- end navbar -->
 
-<!-- Title page -->
+<!-------------- TITLE PAGE --------------->
 <div id="title-page"> 
     <div class="container"> 
     <h1>Hello, my name is Stefanie!</h1>
-    <img src= "images/me.gif"> 
+    <img src= "animated.gif" width = "550" height = "420" alt = "me">
 </div> <!-- end container -->
 </section>
 
@@ -32,66 +35,80 @@
 <section id="overview">
     <div class="container">
             <h1>About Me</h1>
-            <p> Hi, my name is Stefanie Baarman and I am a Senior at Florida State University studying Information, Communication, and Technology with a minor in Computer Science. I use my creativity to find the best ways to solve a problem. 
+            <p> Hi, my name is Stefanie Baarman and I am a Senior at Florida State University studying Information, Communication, and Technology with a minor in Computer Science. 
             </p>
-            <p> I have a passion for web design, object oriented programming, and photography.  
+            <p> I have a passion for web design, programming, and photography. My passion for technology began when I got my first camera in elementary school. I spent most of my days finding different ways to photograph simple objects. Along with the creative aspect of photography, I was always intruiged by how technology worked. Throughout middle and high school, I would watch YouTube tutorials on how to code in C++ and Java, to better understand computers.  
+            </p>
+            <p>
+                In the future, I see myself utilizing my passions in creavitity and programming to implement technologies that will better our everyday lives. 
             </p>
             </div> <!-- end container -->
 </section><!--end OVERVIEW section -->
 
-<!------------- VIDEO SECTION -------------------->
-<section id="video">
-<h1>Photography</h1>
-    <div class="gallery">
-      <figure>
-        <img src="images/image1.jpg">
-        <figcaption></figcaption>
-      </figure>
-      <figure>
-        <img src="images/image2.jpg">
-        <figcaption></figcaption>
-      </figure>
-      <figure>
-        <img src="images/image3.jpg">
-        <figcaption></figcaption>
-      </figure>
-      <figure>
-        <img src="images/image4.jpg">
-        <figcaption></figcaption>
-      </figure>
-      <figure>
-        <img src="images/image5.jpg">
-        <figcaption></figcaption>
-      </figure>
-      <figure>
-        <img src="images/image6.jpg">
-        <figcaption></figcaption>
-      </figure>
-      <figure>
-        <img src="images/image9.jpg">
-        <figcaption></figcaption>
-      </figure>
-      <figure>
-        <img src="images/image8.jpg">
-        <figcaption></figcaption>
-      </figure>
-    </div>
+<!------------- PHOTOGRAPHY SECTION -------------------->
+<section id="photo">
+
+<h1>Projects</h1>
+
 </section>
+
+
+<!------------ PROGRAMMING ---------------->
+<section id="education">
+           <div class="container">
+         
+            <h1>Work Experience</h1>
+            <h3><b>UX Designer Intern</b> - 223 Agency</h3>
+            <h3><i>Tallahassee, FL &nbsp &nbsp &nbsp &nbsp SEPTEMBER 2019 - PRESENT</i></h3>
+            <ul>
+             <li>
+              Use Sketch to create visual designs that are aesthetically pleasing and easy to navigate
+             </li>
+             <li>
+             Analyze user feedback to enhance user experience
+             </li>
+             <li>
+             Communicate design ideas with developers
+             </li>
+            </ul>
+            &nbsp
+            <h3><b>IT Consultant Intern</b> - ConferenceDirect</h3>
+            <h3><i>Potomac, MD &nbsp &nbsp &nbsp &nbsp JUNE 2018 - SEPTEMBER 2019</i></h3>
+            <ul>
+             <li>
+             Manage social media to build online awareness and brand reputation (Twitter, LinkedIn)
+             </li>
+             <li>
+             Debug and resolve technical issues
+
+             </li>
+             <li>
+           Assist software development team in creating a ChatBot in C++
+             </li>
+            </ul>
+           
+           
+          </div>
+           </section>
+           
+        
+
 
 <!------------- FOOTER SECTION -------------------->
 
 <section id="footer">
 	<div class="container">
 		<div id="credits">  <!-- credits id allows for styling of footer content --> 
-            <h1>About the Author</h1>
-            <p><img src="images/stef.jpg" width="300" height="290" alt="Author in her favorite vacation spot, Lake Tahoe."></p> 
-            <p>Stefanie Baarman is a Junior at Florida State University studying Information and Technology with a minor in Computer Science.</p>
+            <h1>Contact</h1>
+            <p><img src="images/stef.jpg" width="200" height="195" alt="Author in her favorite vacation spot, Lake Tahoe."></p> 
+            <p>Email Address: stefaniebaarman@gmail.com</p>
+            <p>Phone Number: (301)502-0685</p>
         <table width="200">
           <tr>
-            <td bgcolor="#596F8F">&nbsp;</td> <!--blue-->
-            <td bgcolor="#F1E9DC">&nbsp;</td> <!--tan-->
-            <td bgcolor="#C19A75">&nbsp;</td> <!--brown-->
-            <td bgcolor="#212938">&nbsp;</td> <!--dark blue-->
+            <td bgcolor="#DEE7FC">&nbsp;</td> 
+            <td bgcolor="#CBD0DB">&nbsp;</td> 
+            <td bgcolor="#A4BCD2">&nbsp;</td>
+            <td bgcolor="#738BA3">&nbsp;</td>
       </tr>
     </table>
     <p>Copyright, 2019, Stefanie Baarman</p>
@@ -113,6 +130,8 @@ jQuery(document).ready(function () {
     return false;
   });
 });
+
+
 </script>
 
 </body>
